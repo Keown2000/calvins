@@ -1,14 +1,11 @@
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <>
       <Navbar />
-
-      <main>
-        <h1>Calvin's</h1>
-        <p>Modern dining experience</p>
-      </main>
+      <Hero />
     </>
   );
 }
