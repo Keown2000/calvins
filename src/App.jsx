@@ -1,8 +1,15 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div>
-      <h1>Calvin's</h1>
-    </div>
+    <>
+      <Navbar />
+
+      <main>
+        <h1>Calvin's</h1>
+        <p>Modern dining experience</p>
+      </main>
+    </>
   );
 }
 
