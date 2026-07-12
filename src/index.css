@@ -8,3 +8,41 @@ body {
   color: white;
   font-family: Arial, sans-serif;
 }
+
+.navbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  background: #121212;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #d4af37;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: #d4af37;
+}
+
+.book-btn {
+  background: #d4af37;
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+}
