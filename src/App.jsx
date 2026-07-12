@@ -1,7 +1,4 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import FeaturedMenu from "./components/FeaturedMenu";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -10,9 +7,7 @@ function App() {
       <Hero />
       <About />
       <FeaturedMenu />
+      <Gallery />
     </>
   );
 }
-
-export default App;
-;
